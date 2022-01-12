@@ -129,6 +129,7 @@ input {
     transform: translate(-50%, -50%);
     background: #333;
     border-radius: 10px;
+    box-shadow: 1px 1px 3px #333;
   }
   
   /* The circle on the bottom of the device */
@@ -159,6 +160,7 @@ input {
     background: #333;
     border-radius: 50%;
     border: 2px black solid;
+    box-shadow: 1px 1px 3px #333;
   }
 
   #camera2 {
@@ -173,6 +175,7 @@ input {
     background: #333;
     border-radius: 50%;
     border: 2px black solid;
+    box-shadow: 1px 1px 3px #333;
   }  
 
 #logo{
@@ -181,10 +184,10 @@ input {
   position: absolute;
   left: 68%;
   top: -43px;
-  opacity: 0.3;
-  -webkit-filter: drop-shadow(5px 5px 5px #222 );
-  filter: drop-shadow(2px 1px 1px #222);
-}
+  opacity: 0.2;
+  /* -webkit-filter: drop-shadow(5px 5px 5px white ); */
+  filter: drop-shadow(1px 1px 0px rgb(255, 255, 255) );
+  }
 
 #lilball{
     max-width: 25px;
