@@ -180,16 +180,24 @@ input {
 
 @media (max-width: 500px) {
 
-  .poke-card::before {
-    display: none;
-    content: '';
-    background: radial-gradient(white 33%, transparent 33%);
-    background-size: 3px 3px;
-    border-radius: 4px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    z-index: -1;
-}
+    .smartphone {
+        max-height: 70vh;
+      }
+
+    .poke-card::before {
+        display: none;
+        content: '';
+        background: radial-gradient(white 33%, transparent 33%);
+        background-size: 3px 3px;
+        border-radius: 4px;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        z-index: -1;
+    }
+
+    .smartphone .border {
+        max-height:70vh;
+    }
