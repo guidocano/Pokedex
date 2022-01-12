@@ -1,3 +1,4 @@
+
 /* Info Pokemon */
 
 .form{
@@ -7,7 +8,7 @@
 
 form {
     width: 230px;
-    padding: 20px;
+    padding: 15px 20px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -43,27 +44,27 @@ input {
     height: 100%;
     width: 100%;
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 5px;
+    top: 4px;
     z-index: -1;
 }
 
 .img-container {
     position: relative;
     width: 180px;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
 .poke-stats div {
     display: flex;
     justify-content: space-between;
     align-content: space-between;
-    padding: 2px;
-    font-size: 18px;
+    padding: 0px 2px;
+    font-size: 16px;
 }
 
 .poke-types div {
-    padding: 4px;
+    padding: 2px;
     margin: 5px;
     border-radius: 4px;
     border: 1px dashed black;
@@ -98,6 +99,7 @@ input {
     border-collapse: separate; */
     background: rgb(212, 25, 25);
     box-shadow: 10px 4px 1px rgb(121, 9, 9);
+    max-height: 80vh;
   }
   
   /* The horizontal line on the top of the device */
@@ -137,7 +139,7 @@ input {
     height: 30px;
     position: absolute;
     left: 15%;
-    bottom: 640px;
+    top: -30px;
     transform: translate(-50%, -50%);
     background: #333;
     border-radius: 50%;
@@ -151,7 +153,7 @@ input {
     height: 13px;
     position: absolute;
     left: 25%;
-    bottom: 653px;
+    top: -26px;
     transform: translate(-50%, -50%);
     background: #333;
     border-radius: 50%;
@@ -162,7 +164,7 @@ input {
     max-width: 25px;
     position: absolute;
     padding-left: 35px;
-    bottom: 586px;
+    top: 24px;
     text-align: center;
 }
 
@@ -172,6 +174,7 @@ input {
     height: 640px;
     border: 2px black solid;
     background-color: #333;
+    max-height:80vh;
   }
 
 

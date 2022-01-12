@@ -42,7 +42,7 @@ const renderPokemonData = data => {
 
     pokeName.textContent = data.name;
     pokeImg.setAttribute('src', sprite);
-    pokeId.textContent = `Nº ${data.id}`;
+    pokeId.textContent = `Nº ${data.id} - `;
 
     setCardColor(types);
     renderPokemonTypes(types);
@@ -65,6 +65,7 @@ const renderPokemonTypes = types => {
         pokeTypes.appendChild(typeTextElement);
     });
 }
+
 
 const renderPokemonStats = stats => {
     pokeStats.innerHTML = '';
