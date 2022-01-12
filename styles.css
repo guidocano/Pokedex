@@ -159,8 +159,9 @@ input {
     transform: translate(-50%, -50%);
     background: #333;
     border-radius: 50%;
+    opacity: 0.95;
     border: 2px black solid;
-    box-shadow: 1px 1px 3px #333;
+    box-shadow: 0px 0px 3px #333;
   }
 
   #camera2 {
@@ -174,8 +175,9 @@ input {
     transform: translate(-50%, -50%);
     background: #333;
     border-radius: 50%;
+    opacity: 0.95;
     border: 2px black solid;
-    box-shadow: 1px 1px 3px #333;
+    box-shadow: 0px 0px 3px #333;
   }  
 
 #logo{
