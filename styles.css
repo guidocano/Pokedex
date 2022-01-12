@@ -97,7 +97,11 @@ input {
     border: 16px rgb(212, 25, 25, 0) solid;
     border-top-width: 60px;
     border-bottom-width: 60px;
-    border-radius: 36px;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+    border-collapse: separate;
     outline:3px solid black;
     background: rgb(212, 25, 25);
   }
