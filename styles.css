@@ -216,3 +216,7 @@ input {
       max-height: 55vh;
       overflow: hidden;
   }
+
+  #logo{
+    width: 95px;
+  }
