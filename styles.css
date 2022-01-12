@@ -94,9 +94,10 @@ input {
     border-top-width: 60px;
     border-bottom-width: 60px;
     border-radius: 36px;
-    outline:3px solid black!important;
-    border-collapse: separate;
+    /* outline:3px solid black;
+    border-collapse: separate; */
     background: rgb(212, 25, 25);
+    box-shadow: 7px 4px 1px rgb(121, 9, 9);
   }
   
   /* The horizontal line on the top of the device */
