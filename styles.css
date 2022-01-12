@@ -1,0 +1,177 @@
+/* Info Pokemon */
+
+.form{
+    display: block;
+    text-align: center;
+}
+
+form {
+    width: 230px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+input {
+    max-width: 100%;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    font-family: 'Poppins', sans-serif;;
+    max-width: 280px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.poke-card::before {
+    content: '';
+    background: radial-gradient(white 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 2px;
+    font-size: 18px;
+}
+
+.poke-types div {
+    padding: 4px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+#imgpoke{
+    width:80%
+}
+
+/* End Info Pokemon */
+
+
+
+
+.img-container img{
+    max-width:250px;
+}
+
+/* The device with borders */
+.smartphone {
+
+    position: relative;
+    max-width: 360px;
+    height: 640px;
+    margin: auto;
+    border: 16px rgb(212, 25, 25, 0) solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    outline:3px solid black;
+    background: rgb(212, 25, 25);
+  }
+  
+  /* The horizontal line on the top of the device */
+  .smartphone:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+  }
+  
+  /* The circle on the bottom of the device */
+ #button {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
+    border: 1px black solid;
+    box-shadow: 1px 1px 3px #333;
+  }
+
+  #camera {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 15%;
+    bottom: 640px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
+    border: 2px black solid;
+  }
+
+  #camera2 {
+    content: '';
+    display: block;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    left: 25%;
+    bottom: 653px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
+    border: 2px black solid;
+  }  
+
+#lilball{
+    max-width: 25px;
+    position: absolute;
+    padding-left: 35px;
+    bottom: 586px;
+    text-align: center;
+}
+
+  /* The screen (or content) of the device */
+  .smartphone .border {
+    max-width: 360px;
+    height: 640px;
+    border: 2px black solid;
+    background-color: #333;
+  }
