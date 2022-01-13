@@ -1,6 +1,7 @@
 const pokeCard = document.querySelector('[data-poke-card]');
 const pokeName = document.querySelector('[data-poke-name]');
 const pokeImg = document.querySelector('[data-poke-img]');
+const pokeImg2 = document.querySelector('[data-poke-img2]');
 const pokeImgContainer = document.querySelector('[data-poke-img-container]');
 const pokeId = document.querySelector('[data-poke-id]');
 const pokeTypes = document.querySelector('[data-poke-types]');
@@ -9,7 +10,7 @@ const pokeStats = document.querySelector('[data-poke-stats]');
 const typeColors = {
     electric: '#FFEA70',
     normal: '#B09398',
-    fire: '#FF675C',
+    fire: '#ff5044',
     water: '#0596C7',
     ice: '#AFEAFD',
     rock: '#999799',
@@ -42,18 +43,21 @@ const renderPokemonData = data => {
 
     pokeName.textContent = data.name;
     pokeImg.setAttribute('src', sprite);
+    pokeImg2.setAttribute('src', sprite);
     pokeId.textContent = `Nº ${data.id} - `;
 
     setCardColor(types);
     renderPokemonTypes(types);
     renderPokemonStats(stats);
+// document.getElementById('imgpoke').style.zIndex = 1;
 }
 
 const setCardColor = types => {
     const colorOne = typeColors[types[0].type.name];
     const colorTwo = types[1] ? typeColors[types[1].type.name] : typeColors[types[0].type.name];
-    pokeImg.style.background =  `radial-gradient(${colorTwo} 30%, ${colorOne} 30%)`;
-    pokeImg.style.backgroundSize = ' 5px 5px';
+
+    pokeImg2.style.background =  `radial-gradient(farthest-corner at 30px 30px, ${colorTwo} 10%, ${colorOne} 60%, transparent 99%)`;
+
 }
 
 const renderPokemonTypes = types => {

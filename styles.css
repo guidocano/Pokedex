@@ -76,8 +76,15 @@ input {
 }
 
 #imgpoke{
+    position:absolute;
     width:80%;
-    border-radius: 50%;
+    border-radius: 0%;
+}
+
+#imgpoke2{
+
+  width:80%;
+  border-radius: 50%;
 }
 
 /* End Info Pokemon */
